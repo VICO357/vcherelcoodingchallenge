@@ -1,0 +1,92 @@
+/* Write some CSS below */
+body	{
+	font-family: Overpass;
+	font-size: 18px;
+	background-color: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+}
+
+h1, h2 {
+	font-family: Chivo;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.banner	{
+	text-align: center;
+	background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 1.0)), url(images/Quatar.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: -10px;
+	color: white;
+	padding: 100px 0px;
+}
+
+
+
+.btn-yellow {
+	background-color: #44353f;
+	padding: 10px 45px;
+	border-radius: 4px;
+	margin: 20px;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+
+}
+
+.btn-yellow:hover {
+	background-color: #9B2E2E;
+	color: white;
+} 
+
+.container {
+	text-align: center;
+	width: 900px;
+	margin: auto;
+
+}
+
+
+.card-white	{
+	background-color: #44353f;
+	color: white;
+	width: 220px;
+	text-align:center;
+	padding:24px ;
+	margin: 8px;
+	border-radius: 40px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+}
+	
+.card-white img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 40px;
+}
+
+.card-white:hover {
+	background-color: black;
+	color: #9B2E2E;
+}
+
+.footer {
+	background-color:#44353f;
+	color: white;
+	height: 80px;
+	text-align: center;
+	padding: 30px;
+	margin-top: 25px;
+
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+
+}
